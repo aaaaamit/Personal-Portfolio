@@ -79,8 +79,44 @@ h2 {
     cursor: pointer;
 }
 #contact-button:hover{
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
     color: black;
+}
+#job-section{
+    max-width: 1080px;
+    margin: 48px auto;
+}
+#job-title{
+    display: flex;
+}
+.job-title-heading{
+    width: 33.3%;
+}
+.job-name{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+}
+.job-title-discription{
+    color: #55206D;
+    font-family: Poppins;
+    /* height: 90px; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.10);
+    background: #FFF;
 }
 .box-section-start{
     max-width: 1080px;
